@@ -14,7 +14,7 @@ fn fizzit(x: i32) -> String {
 }
 
 fn main() {
-    for i in 1..101 {
+    for i in 1..=100 {
         println!("{}", fizzit(i));
     }
 }
